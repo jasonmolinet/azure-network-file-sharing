@@ -27,7 +27,7 @@ Step 1:
 ![image](https://i.imgur.com/XVXUYdD.jpg)
 
 Creating Folders
-- Login as jane_admin in DC-1 and a random user in client-1 VM
+- Login as jane_admin or the adminstrative account created in DC-1 (Domain Controller)
 - In DC-1 VM go to file explorer and create 4 folders in the C: labeled as “read-access”, “write-access”, “no-access”, “accounting”
 - Then right click and properties on read access and share to domain users as permission level of read 
 - Then right click and properties on write access and share to domain users as permission level of read/write
